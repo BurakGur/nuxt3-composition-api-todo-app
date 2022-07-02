@@ -19,8 +19,12 @@
 const newTodo = ref('')
 const defaultData = [
   {
-    done: false,
+    done: true,
     content: 'Write a blog post'
+  },
+  {
+    done: false,
+    content: 'Listen a podcast'
   }
 ]
 const { $cookies } = useNuxtApp()
