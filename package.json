@@ -1,0 +1,44 @@
+{
+  "name": "nuxt3-composition-api-todo-app",
+  "version": "0.0.1",
+  "description": "Nuxt 3 ToDo App with Composition API",
+  "private": false,
+  "keywords": ["nuxt", "todo", "composition", "api", "vue"],
+	"author": "Burak Gür <gurbrk@gmail.com>",
+  "bugs": {
+		"url": "https://github.com/BurakGur/vue3-composition-api-todo-app/issues",
+    "email": "gurbrk@gmail.com"
+	},
+	"homepage": "https://github.com/BurakGur/vue3-composition-api-todo-app#readme",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/BurakGur/vue3-composition-api-todo-app"
+  },
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "lint:eslint": "eslint --ext .js,.vue,.pug --ignore-path .gitignore --ignore-path .eslintignore .",
+    "lint:eslint:fix": "eslint --fix --ext .js,.vue,.pug --ignore-path .gitignore --ignore-path .eslintignore .",
+    "prettier": "prettier --config ./.prettierrc.js --ignore-path ./.prettierignore --write \"**/*.{js,json,css,scss,vue,html,pug}\""
+  },
+  "devDependencies": {
+    "@nuxtjs/eslint-module": "^3.1.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^8.18.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-loader": "^4.0.2",
+    "eslint-plugin-nuxt": "^3.2.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-vue": "^9.1.1",
+    "nuxt": "3.0.0-rc.4",
+    "prettier": "^2.7.1",
+    "sass": "^1.53.0",
+    "sass-loader": "10"
+  },
+  "dependencies": {
+    "cookie-universal-nuxt": "^2.2.1"
+  }
+}
