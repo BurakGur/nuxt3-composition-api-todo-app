@@ -51,6 +51,15 @@ function removeTodo(index) {
 function saveData() {
   $cookies.set('todos', todos.value)
 }
+useHead({
+  title: 'ToDo App',
+  meta: [
+    {
+      name: 'description',
+      content: 'Nuxt 3 ToDo App with Composition API'
+    }
+  ]
+})
 </script>
 
 <style lang="scss">
