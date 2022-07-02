@@ -1,4 +1,8 @@
-# Nuxt 3 Minimal Starter
+# ToDo App with Nuxt 3 Composition API
+
+> A simple ToDo application using Vue 3 Composition API.
+### Demo: [https://nuxt3-composition-api-todo-app.vercel.app/](https://nuxt3-composition-api-todo-app.vercel.app/)
+## Nuxt 3 Minimal Starter
 
 Look at the [nuxt 3 documentation](https://v3.nuxtjs.org) to learn more.
 
